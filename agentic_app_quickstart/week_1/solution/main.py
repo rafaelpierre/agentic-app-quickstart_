@@ -29,4 +29,4 @@ async def respond(message, history):
     # Otherwise just show the text
     return str(result)
 
-gr.ChatInterface(fn=respond, title="Data Analyst", type="messages").launch(server_name="0.0.0.0", server_port=7860)
+gr.ChatInterface(fn=respond, title="Data Analyst", type="messages").launch(server_name="0.0.0.0", server_port=8000)

@@ -208,3 +208,9 @@ __marimo__/
 
 */.env
 */.venv
+
+*/**/*.db
+**/*.db-shm
+**/*.db-wal
+conversations.db
+conversations.db*
